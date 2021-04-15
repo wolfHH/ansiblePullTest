@@ -1,0 +1,9 @@
+- hosts: edge
+  tasks:
+    - name: ping
+      ping:
+    - name: touch flag
+      lineinfile:
+        path: /srv/flag.txt
+        regexp: '^'
+        line: provisioned system
