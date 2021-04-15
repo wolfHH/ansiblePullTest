@@ -1,4 +1,4 @@
-- hosts: provSrv
+- hosts: acando01
   tasks:
     - name: ping
       ping:
