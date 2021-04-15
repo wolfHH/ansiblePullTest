@@ -1,4 +1,4 @@
-- hosts: edge
+- hosts: provSrv
   tasks:
     - name: ping
       ping:
